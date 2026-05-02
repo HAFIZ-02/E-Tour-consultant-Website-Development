@@ -1,15 +1,32 @@
 # Tour Consultant - Fullstack Application
-
 Complete tour booking and management system for exploring Sumatera Barat with responsive web interface and robust backend.
 
-## 📋 Project Overview
+Tour Consultant: Platform Pemesanan Wisata Sumatera Barat
+Tour Consultant adalah aplikasi web full-stack yang dirancang untuk mempermudah akses wisatawan dalam menjelajahi keindahan pariwisata Sumatera Barat. Platform ini menyederhanakan seluruh alur perjalanan, mulai dari tahap pencarian hingga reservasi, memberikan pengalaman yang mulus bagi pengguna, serta menyediakan sistem manajemen yang tangguh bagi administrator.
 
-Tour Consultant is a comprehensive tour booking platform featuring:
-- ✅ Browse & book tour packages by category
-- ✅ Flight, bus, and car rental booking
-- ✅ User-friendly booking form
-- ✅ Email confirmations and receipts
-- ✅ Admin management system
+🚀 Tentang Proyek
+Menjelajahi Sumatera Barat seharusnya terasa semudah menikmati pemandangannya. Proyek ini dibangun untuk memusatkan proses pemesanan—mulai dari paket wisata lokal hingga transportasi antarkota—ke dalam satu antarmuka yang responsif dan intuitif. Baik untuk perjalanan santai ke pesisir pantai maupun petualangan mendaki gunung, Tour Consultant memastikan setiap pemesanan dilakukan dengan cepat, transparan, dan akurat.
+
+✨ Fitur Utama
+🌍 Paket Wisata Terkurasi
+Jelajahi keindahan Sumatera Barat melalui 10 paket wisata yang telah dikurasi secara profesional. Untuk memudahkan navigasi, paket dikelompokkan ke dalam tujuh kategori agar pengguna dapat menemukan destinasi yang sesuai dengan preferensi mereka:
+
+Kategori: Pantai, Gunung, Desa, Pulau, Kota, Laut, dan Objek Wisata.
+
+Detail Paket: Setiap paket dilengkapi dengan rincian lokasi, deskripsi highlight, harga, galeri gambar, serta opsi layanan pemandu wisata.
+
+✈️ Pemesanan Transportasi Terintegrasi
+Kami memahami bahwa perjalanan memerlukan lebih dari sekadar paket wisata. Platform ini menyediakan mesin pemesanan transportasi yang mencakup:
+Penerbangan: Akses ke 3 pilihan penerbangan domestik terpercaya.
+Bus: Dukungan pemesanan untuk 2 rute bus antarkota utama.
+Sewa Mobil: Kemudahan memilih antara 2 jenis kendaraan yang dapat disesuaikan dengan jumlah penumpang dan kenyamanan.
+
+💳 Sistem Pemesanan & Manajemen
+Inti dari aplikasi ini adalah sistem pemesanan yang berpusat pada pengguna (user-centric) untuk kenyamanan maksimal:
+Alur Multi-Langkah: Proses reservasi yang logis dan terstruktur dari pemilihan hingga pembayaran.
+Validasi Formulir: Pengecekan real-time untuk memastikan akurasi data pengguna.
+Harga Dinamis: Perhitungan otomatis untuk memastikan transparansi biaya.
+Konfirmasi & Resi: Pembuatan bukti pemesanan otomatis dan notifikasi email agar pengguna tetap terinformasi selama proses berlangsung.
 
 ## 🛠️ Tech Stack
 
@@ -129,29 +146,6 @@ npm run test          # Run tests
 - **Secondary**: #14b8a6 (Emerald)
 - **Background**: #ffffff (White)
 - **Text**: #111827 (Gray-900)
-
-### Responsive Breakpoints
-- Mobile: < 640px
-- Tablet: 640px - 1024px
-- Desktop: > 1024px
-
-## 🔗 Integration Flow
-
-```
-User → Frontend (Next.js)
-         ↓
-     [Browse/Book]
-         ↓
-API Calls (Axios)
-         ↓
-Backend (NestJS)
-         ↓
-[Validate → Store → Email]
-         ↓
-Database (Prisma)
-         ↓
-Response + Email Notification
-         ↓
 Frontend → Success Page
 ```
 
